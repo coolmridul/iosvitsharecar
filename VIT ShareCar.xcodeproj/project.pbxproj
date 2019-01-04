@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8186C8021CD2E4B000A68E9 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8186C7F21CD2E4B000A68E9 /* ViewControllerTableViewCell.swift */; };
+		D8186C8221CD2EFF000A68E9 /* Modelclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8186C8121CD2EFF000A68E9 /* Modelclass.swift */; };
+		D82DB4E321CAA8A600C29726 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82DB4E221CAA8A600C29726 /* PhoneViewController.swift */; };
+		D831200E21C80F160093FD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D831200D21C80F160093FD02 /* AppDelegate.swift */; };
+		D831201321C80F160093FD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D831201121C80F160093FD02 /* Main.storyboard */; };
+		D831201821C80F180093FD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D831201621C80F180093FD02 /* LaunchScreen.storyboard */; };
+		D831202021C811080093FD02 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D831201F21C811080093FD02 /* SignInViewController.swift */; };
+		D872A72D21DFC9050031FCD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D872A72C21DFC9050031FCD6 /* Assets.xcassets */; };
+		D896E6B421C93376007D7C4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D896E6B321C93376007D7C4A /* GoogleService-Info.plist */; };
+		D8BB9E5E21C8C73D00209530 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BB9E5D21C8C73D00209530 /* HomeViewController.swift */; };
+		D8BB9E6021C8C75A00209530 /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BB9E5F21C8C75A00209530 /* RideViewController.swift */; };
+		D8BB9E6221C8C78200209530 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BB9E6121C8C78200209530 /* AccountViewController.swift */; };
+		F88BE053F811E8B997F88CDC /* Pods_VIT_ShareCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B012FA6782CBDDF7AF5327 /* Pods_VIT_ShareCar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82B012FA6782CBDDF7AF5327 /* Pods_VIT_ShareCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIT_ShareCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EA209158F0AE0BDC3EDF7B /* Pods-VIT ShareCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIT ShareCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIT ShareCar/Pods-VIT ShareCar.release.xcconfig"; sourceTree = "<group>"; };
+		C14F68BBCDB0937AE4260DE8 /* Pods-VIT ShareCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIT ShareCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIT ShareCar/Pods-VIT ShareCar.debug.xcconfig"; sourceTree = "<group>"; };
+		D8186C7C21CD19E1000A68E9 /* VIT ShareCar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VIT ShareCar.entitlements"; sourceTree = "<group>"; };
+		D8186C7F21CD2E4B000A68E9 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		D8186C8121CD2EFF000A68E9 /* Modelclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelclass.swift; sourceTree = "<group>"; };
+		D82DB4E121CA875700C29726 /* VIT ShareCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIT ShareCar-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D82DB4E221CAA8A600C29726 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		D831200A21C80F160093FD02 /* VIT ShareCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIT ShareCar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D831200D21C80F160093FD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D831201221C80F160093FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D831201721C80F180093FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D831201921C80F180093FD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D831201F21C811080093FD02 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D872A72C21DFC9050031FCD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D896E6B321C93376007D7C4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8BB9E5D21C8C73D00209530 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D8BB9E5F21C8C75A00209530 /* RideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
+		D8BB9E6121C8C78200209530 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D831200721C80F160093FD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88BE053F811E8B997F88CDC /* Pods_VIT_ShareCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA8BC2E5B976453F21F1E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C14F68BBCDB0937AE4260DE8 /* Pods-VIT ShareCar.debug.xcconfig */,
+				B9EA209158F0AE0BDC3EDF7B /* Pods-VIT ShareCar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A58E695CE1BD7666452AB42E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B012FA6782CBDDF7AF5327 /* Pods_VIT_ShareCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D831200121C80F160093FD02 = {
+			isa = PBXGroup;
+			children = (
+				D831200C21C80F160093FD02 /* VIT ShareCar */,
+				D831200B21C80F160093FD02 /* Products */,
+				2CA8BC2E5B976453F21F1E1A /* Pods */,
+				A58E695CE1BD7666452AB42E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D831200B21C80F160093FD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D831200A21C80F160093FD02 /* VIT ShareCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D831200C21C80F160093FD02 /* VIT ShareCar */ = {
+			isa = PBXGroup;
+			children = (
+				D8186C7C21CD19E1000A68E9 /* VIT ShareCar.entitlements */,
+				D831200D21C80F160093FD02 /* AppDelegate.swift */,
+				D82DB4E221CAA8A600C29726 /* PhoneViewController.swift */,
+				D831201F21C811080093FD02 /* SignInViewController.swift */,
+				D8BB9E5D21C8C73D00209530 /* HomeViewController.swift */,
+				D8BB9E5F21C8C75A00209530 /* RideViewController.swift */,
+				D872A72C21DFC9050031FCD6 /* Assets.xcassets */,
+				D8BB9E6121C8C78200209530 /* AccountViewController.swift */,
+				D831201121C80F160093FD02 /* Main.storyboard */,
+				D8186C8121CD2EFF000A68E9 /* Modelclass.swift */,
+				D8186C7F21CD2E4B000A68E9 /* ViewControllerTableViewCell.swift */,
+				D831201621C80F180093FD02 /* LaunchScreen.storyboard */,
+				D896E6B321C93376007D7C4A /* GoogleService-Info.plist */,
+				D831201921C80F180093FD02 /* Info.plist */,
+				D82DB4E121CA875700C29726 /* VIT ShareCar-Bridging-Header.h */,
+			);
+			path = "VIT ShareCar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D831200921C80F160093FD02 /* VIT ShareCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D831201C21C80F190093FD02 /* Build configuration list for PBXNativeTarget "VIT ShareCar" */;
+			buildPhases = (
+				A2D320A8C0443DF92CBC5247 /* [CP] Check Pods Manifest.lock */,
+				D831200621C80F160093FD02 /* Sources */,
+				D831200721C80F160093FD02 /* Frameworks */,
+				D831200821C80F160093FD02 /* Resources */,
+				2AB6998E8CF991AE738E93BE /* [CP] Embed Pods Frameworks */,
+				A0003DB0BC14EB80A25457F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIT ShareCar";
+			productName = "VIT ShareCar";
+			productReference = D831200A21C80F160093FD02 /* VIT ShareCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D831200221C80F160093FD02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Techifuzz;
+				TargetAttributes = {
+					D831200921C80F160093FD02 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D831200521C80F160093FD02 /* Build configuration list for PBXProject "VIT ShareCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D831200121C80F160093FD02;
+			productRefGroup = D831200B21C80F160093FD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D831200921C80F160093FD02 /* VIT ShareCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D831200821C80F160093FD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D831201821C80F180093FD02 /* LaunchScreen.storyboard in Resources */,
+				D896E6B421C93376007D7C4A /* GoogleService-Info.plist in Resources */,
+				D872A72D21DFC9050031FCD6 /* Assets.xcassets in Resources */,
+				D831201321C80F160093FD02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB6998E8CF991AE738E93BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VIT ShareCar/Pods-VIT ShareCar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/VBRRollingPit/VBRRollingPit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VBRRollingPit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIT ShareCar/Pods-VIT ShareCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0003DB0BC14EB80A25457F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VIT ShareCar/Pods-VIT ShareCar-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIT ShareCar/Pods-VIT ShareCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D320A8C0443DF92CBC5247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIT ShareCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D831200621C80F160093FD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D831202021C811080093FD02 /* SignInViewController.swift in Sources */,
+				D8BB9E6221C8C78200209530 /* AccountViewController.swift in Sources */,
+				D8186C8221CD2EFF000A68E9 /* Modelclass.swift in Sources */,
+				D831200E21C80F160093FD02 /* AppDelegate.swift in Sources */,
+				D82DB4E321CAA8A600C29726 /* PhoneViewController.swift in Sources */,
+				D8BB9E6021C8C75A00209530 /* RideViewController.swift in Sources */,
+				D8BB9E5E21C8C73D00209530 /* HomeViewController.swift in Sources */,
+				D8186C8021CD2E4B000A68E9 /* ViewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D831201121C80F160093FD02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D831201221C80F160093FD02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D831201621C80F180093FD02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D831201721C80F180093FD02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D831201A21C80F180093FD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D831201B21C80F180093FD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D831201D21C80F190093FD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14F68BBCDB0937AE4260DE8 /* Pods-VIT ShareCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKR86CB6SC;
+				INFOPLIST_FILE = "VIT ShareCar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.techii.sharecar.VIT-ShareCar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VIT ShareCar/VIT ShareCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D831201E21C80F190093FD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EA209158F0AE0BDC3EDF7B /* Pods-VIT ShareCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKR86CB6SC;
+				INFOPLIST_FILE = "VIT ShareCar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.techii.sharecar.VIT-ShareCar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VIT ShareCar/VIT ShareCar-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D831200521C80F160093FD02 /* Build configuration list for PBXProject "VIT ShareCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D831201A21C80F180093FD02 /* Debug */,
+				D831201B21C80F180093FD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D831201C21C80F190093FD02 /* Build configuration list for PBXNativeTarget "VIT ShareCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D831201D21C80F190093FD02 /* Debug */,
+				D831201E21C80F190093FD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D831200221C80F160093FD02 /* Project object */;
+}
